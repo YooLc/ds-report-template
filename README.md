@@ -16,6 +16,8 @@ LaTeX template for FDS / ADS courses of Zhejiang University.
 | ![template_2](./screenshots/template_2.jpg) |
 | ![template_3](./screenshots/template_3.jpg) |
 
+或者直接查看 [report.pdf](report.pdf) 文件
+
 ## 使用方法
 
 1. 安装 `texlive`，最好是 `full` 版本
