@@ -8,6 +8,12 @@ LaTeX template for FDS / ADS courses of Zhejiang University.
 
 如果觉得 LaTeX 太麻烦，或许可以尝试 [memset0](https://github.com/memset0) 大佬写的 [Typst 模板](https://github.com/memset0/ZJU-Project-Report-Template).
 
+# 使用说明
+
+**本仓库只是一个报告模板，不包括任何报告的具体内容和写作建议。**
+
+**请务必遵守 [诚信守则](https://www.zhihu.com/question/68235594/answer/261395370) 以及本仓库的 [License](LICENSE) : )**
+
 ## 预览
 
 |                 Screenshots                 |
