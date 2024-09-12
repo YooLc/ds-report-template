@@ -1,0 +1,56 @@
+
+\usepackage{color}
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{svg}
+\usepackage{graphicx,wrapfig,lipsum}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{longtable}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage[normalem]{ulem}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, matrix, decorations.pathreplacing, shapes, arrows.meta, backgrounds, calc, positioning}
+
+% 代码高亮风格
+\usepackage{minted}
+\usemintedstyle{manni}
+
+% 设置文本格式
+\geometry{a4paper, top=2.5cm,bottom=2.5cm,left=3cm,right=3cm}
+\linespread{1.2}
+
+% 设置页眉
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+
+% 自定义颜色
+\definecolor{skyblue}{RGB}{46, 103, 211}
+\definecolor{peach}{RGB}{241, 152, 18}
+\definecolor{purple}{RGB}{197, 94, 223}
+\definecolor{bllue}{HTML}{00b7cc}
+
+% 自定义超链接样式
+\hypersetup{
+    colorlinks=true,
+    linkcolor=skyblue,
+    urlcolor=skyblue,
+    pdfborderstyle={/S/U/W 1}
+}
+
+% 去除换行符
+\newcommand{\removelinebreaks}[1]{%
+\def\\{\relax}#1}
+
+% 控制是否为互评
+\newif\ifIsPR
